@@ -1,0 +1,10 @@
+1. Install and start kafka using guideline available at:
+https://www.goavega.com/install-apache-kafka-on-windows/
+
+2. First start user-profile-service using 
+mvn clean install 
+mvn spring-boot:run
+
+3. Start authorization-service using
+mvn clean install 
+mvn spring-boot:run
